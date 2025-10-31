@@ -20,9 +20,9 @@ if yspd > 0 {
 } else if yspd < 0 {
 	sprite_index = sPlayerUp;
 } else if xspd > 0 {
-	sprite_index = sPlayerRight;
-} else if xspd < 0 {
 	sprite_index = sPlayerLeft;
+} else if xspd < 0 {
+	sprite_index = sPlayerRight;
 }
 
 if(xspd != 0 or yspd != 0) {
